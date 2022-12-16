@@ -31,7 +31,7 @@ const RepoLists = ({ repos, isLoading, errorMessage }) => {
         repos.length > 0 &&
         currentRecords.map((repo) => {
           return (
-            <Col key={repo.id} lg={4} md={6} sm={6} xs={12} xl={4} className={`${classes.repoMargin} centered`}>
+            <Col key={repo.id} lg={4} sm={6} xs={12} xl={4} className={`${classes.repoMargin} centered`}>
               <Card className={`${classes.card}`}>
                 <Card.Img variant="top" src={GitHubImg} />
                 <Card.Body>
