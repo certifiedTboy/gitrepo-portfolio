@@ -1,0 +1,107 @@
+body{
+  background:url("https://webdevtrick.com/wp-content/uploads/1st.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(32, 31, 31, 0.90);
+  height: 570px;
+  width: 100%;
+  margin: -100 -100 -100 -100;
+}
+
+
+.allRepoDisplay {
+  overflow-x: scroll;
+  height: 500px;
+}
+
+.text{
+  color: rgb(253, 253, 253);
+}
+
+.repoHeading {
+  position: fixed;
+  border-bottom: 2px;
+  margin-top: 20px;
+}
+
+.onScrollEffect {
+  background-color: rgba(75, 243, 207, 0.4);
+  padding: 10px 180px 10px 10px; 
+  box-shadow: 0px 0px 10px -2px rgba(240, 240, 240, 0.75);
+  transition-delay: 0.20s;
+
+/* Transition-duration: Determines how many seconds or milliseconds a transition effect takes to complete */
+transition-duration: 0.20s;
+
+/* Transition-timing-function: This property allows a transition effect to change speed over its duration. */
+transition-timing-function: ease-in-out;
+}
+
+.loadspinner {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+  }
+
+
+  .error{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .borderline {
+    border-left: 1px;
+    /* border-style: solid; */
+    box-shadow: 0px 0px 10px -2px rgba(240, 240, 240, 0.75);
+  }
+
+  .detailsText {
+    font-weight: 600;
+  }
+
+  .repoTitle{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .repoTime {
+    font-size: 15px;
+  }
+
+
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .keyValue {
+      font-size: 10px;
+    }
+
+    .repoTitle{
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .repoTime {
+      font-size: 8px;
+    }
+
+    .detailsText {
+      font-weight: 600;
+      font-size: 8px;
+    }
+
+    .bt{
+      width: 100%;
+    }
+
+  
+  }

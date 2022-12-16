@@ -1,0 +1,26 @@
+.img {
+    border-radius: 70%;
+}
+
+.link {
+    color:white; 
+    margin-right:10px;
+    margin-left: 20px;
+}
+
+.link2 {
+    color:white; 
+    margin-right:20px;
+}
+
+.active{
+    color:rgb(221, 44, 0)
+}
+  
+/* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+   .hide{
+      display: none !important;
+   }
+  }

@@ -1,0 +1,22 @@
+.anchorTag {
+  color: rgb(173, 173, 169);
+  padding: 4px 8px;
+  text-decoration: none;
+  display: block;
+ font-weight: 600;
+
+}
+
+.dropdownContent {
+  position: absolute;
+  min-width: 230px;
+  z-index: 1;
+  margin-top: 50px;
+}
+
+ .anchorTag:hover {background-color: #f1f1f1}
+
+
+
+
+
