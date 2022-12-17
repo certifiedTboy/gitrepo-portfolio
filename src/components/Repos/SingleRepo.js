@@ -69,7 +69,7 @@ const SingleRepo = ({ repoData, errorMessage, isLoading, allRepos }) => {
             </span>
           </h2>
 
-          {repoData.created_at ? <Accordion defaultActiveKey="0" flush>
+          {repoData.created_at ? <Accordion defaultActiveKey="0" flush className={classes.accMargin}>
             <Accordion.Item eventKey="0">
               <Accordion.Header><strong>Description</strong></Accordion.Header>
               <Accordion.Body>{repoData.description}</Accordion.Body>
