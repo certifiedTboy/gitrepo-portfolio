@@ -47,13 +47,13 @@ const MainNav = ({ pathname }) => {
                   Home
                 </span>
               </NavLink>
-              <a href="/repositories">
+              <NavLink to={"/repositories"}>
                 <span
                   className={`${classes.link2} ${hideNav ? classes.hide : " "} ${pathname === "/repositories" ? classes.active : ""} ${pathname === `/repositories/${pathname.split("/")[2]}` ? classes.active : ""}`}
                 >
                   Repos
                 </span>
-              </a>
+              </NavLink>
             </Nav>
             <SearchBar onHideNav={onHideNav} onShowNav={showNav} />
           </Navbar.Collapse>

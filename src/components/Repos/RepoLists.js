@@ -44,7 +44,7 @@ const RepoLists = ({ repos, isLoading, errorMessage }) => {
                   <Card.Text className={classes.repoText}>
                     {repo.description
                       ? repo.description
-                      : "Description for this repository is not provided yet, view more details using the button below"}
+                      : "Description for this repository is not available, view more details using the button below"}
                   </Card.Text>
                   <NavLink
                     to={`/repositories/${repo.name}`}

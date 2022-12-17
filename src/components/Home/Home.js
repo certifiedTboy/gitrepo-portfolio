@@ -1,5 +1,6 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
+import { NavLink } from "react-router-dom"
 import SkillSets from "../UI/SkillSets"
 import classes from "./Home.module.css"
 
@@ -31,12 +32,12 @@ const Home = () => {
 
           <div>
             <span>
-              <a
-                href={"/repositories"}
+              <NavLink
+                to={"/repositories"}
                 className={`${classes.navlink} btn btn-secondary mr-4`}
               >
                 View Repositories
-              </a>
+              </NavLink>
 
             </span>
           </div>
