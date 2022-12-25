@@ -20,7 +20,7 @@ const MainNav = ({ pathname }) => {
 
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className="fixed-top">
         <Container fluid>
           <Navbar.Brand href="/">
             <img

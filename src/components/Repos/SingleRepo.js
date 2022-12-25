@@ -18,7 +18,7 @@ const SingleRepo = ({ repoData, errorMessage, isLoading, allRepos }) => {
     allrepos = (
       <Col lg={4} sm={4} xs={12} className={classes.borderline}>
         <div>
-          <p>{allRepos.error}</p>
+          <p className={classes.error}>{allRepos.error}</p>
         </div>
       </Col>
     );

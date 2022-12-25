@@ -30,14 +30,20 @@ const Home = () => {
           </div>
           <SkillSets />
 
-          <div>
+          <div className={`${classes.navlink}`}>
             <span>
               <NavLink
                 to={"/repositories"}
-                className={`${classes.navlink} btn btn-secondary mr-4`}
+                className={`btn btn-secondary mr-4`}
               >
                 View Repositories
               </NavLink>
+              <a
+                href="https://drive.google.com/u/0/uc?id=1otiIMMO_f6RocGzA5tclWkRq9API4_32&export=download"
+                className={`btn btn-secondary mr-4`}
+              >
+                Download CV
+              </a>
 
             </span>
           </div>

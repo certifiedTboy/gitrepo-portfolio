@@ -4,7 +4,7 @@ body{
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
- 
+ margin-top: 50px;
 }
 
 
@@ -46,6 +46,10 @@ body{
     margin-bottom: 200px;
   }
 
+  .navlink a {
+    font-size: 10px;
+    }
+
 }
 
 
@@ -78,6 +82,9 @@ body{
     margin-top: 100px;
     margin-bottom: 90px;
   }
+  .navlink a {
+    font-size: 15px;
+    }
 
 }
 
@@ -115,6 +122,10 @@ body{
     margin-bottom: 90px;
   }
 
+  .navlink a {
+    font-size: 20px;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -150,6 +161,10 @@ body{
     font-weight: 600;
     margin-bottom: 100px;
   }
+
+  .navlink a {
+    font-size: 20px;
+    }
   
   .banner {
     background-size: 100% 100%;
