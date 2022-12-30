@@ -39,7 +39,7 @@ const Home = () => {
                 View Repositories
               </NavLink>
               <a
-                href="https://drive.google.com/u/0/uc?id=1otiIMMO_f6RocGzA5tclWkRq9API4_32&export=download"
+                href="https://drive.google.com/u/0/uc?id=1744QhI75517_eENxI95OQb7Vxcjbdxvf&export=download"
                 className={`btn btn-secondary mr-4`}
               >
                 Download CV
